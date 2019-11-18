@@ -1,0 +1,183 @@
+.banner-img
+{
+    height: 700px;
+    width: 100%;
+}
+.navbar
+{
+    position: absolute;
+   
+    color: white;
+}
+.navbar .navbar-brand
+{
+    margin-left:80px;
+}
+.navbar .navs
+{
+margin-left: 1100px;;
+}
+.banner-text
+{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 100px;
+}
+.form-fields
+{
+    background-color: #fff7ff;
+    padding-bottom: 80px;
+    padding-top: 200px;
+}
+.services
+{
+    margin-top: 50px;
+}
+.services img 
+{
+    height: 150px;
+    width:230px;
+}
+.services p
+{
+    width:65%;
+    margin: auto;
+    color: #757474;
+}
+.services h4
+{
+    color: #919090;
+}
+/***************Responsive*******************/
+
+@media only screen and (max-width: 538px) 
+{
+    .banner-img
+{
+    background-color:#fff7ff;   
+    height: 250px;
+    width: 100%;
+}  
+   
+    .navbar
+{
+  background-color: rgba(159, 46, 224, 0.465);
+    color:black;
+    width: 100%;
+    margin-top: -370px;
+   
+}
+.navbar .navs
+{
+margin-left: 100px;;
+}
+.navbar .navbar-brand
+{
+    margin-left:10px;
+}
+  
+
+
+.form-fields
+{
+    background-color: #fff7ff;
+    padding-bottom: 10px;
+   margin-top: 0px;
+}
+.form-fields input 
+{
+    margin-top: 10px;
+}
+.services
+{
+    margin-top: 50px;
+}
+}
+@media only screen and (max-width: 768px) 
+{
+    .navbar
+{
+  background-color: rgba(159, 46, 224, 0.465);
+    color:black;
+    width: 100%;
+    margin-top: -370px;
+   
+}
+    .banner-img
+{
+   background-color:#fff7ff;
+    height: 300px;
+    width: 100%;
+
+}  
+    .navbar
+{
+    position: relative;
+    color: blueviolet;
+    
+}
+.navbar .navs
+{
+margin-left: 100px;;
+}
+  
+
+.form-fields
+{
+    background-color: #fff7ff;
+    padding-bottom: 100px;
+   margin-top: 100px;
+}
+.form-fields input 
+{
+    margin-top: 10px;
+}
+
+}
+
+@media only screen and (max-width: 987px) 
+{
+    .navbar
+{
+  background-color: rgba(159, 46, 224, 0.465);
+    color:black;
+    width: 100%;
+    margin-top: -370px;
+   
+}
+    .banner-img
+{
+    background-color:#fff7ff;
+    height: 300px;
+    width: 100%;
+}  
+    
+    .navbar
+{
+    position: relative;
+    color: blueviolet;
+    
+}
+.navbar .navs
+{
+margin-left: 100px;;
+}
+.banner-img
+{
+    margin-top: 70px;
+    height: 300px;
+    width: 100%;
+}   
+
+.form-fields
+{
+    background-color: #fff7ff;
+    padding-bottom: 100px;
+   margin-top: 350px;
+}
+.form-fields input 
+{
+    margin-top: 10px;
+}
+
+}
